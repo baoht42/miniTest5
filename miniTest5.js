@@ -106,10 +106,10 @@ function bai4() {
     let rec2 = new Rectangle(140, 410);
     let myCanvas = document.getElementById("canvasBai4");
     document.write(`Chu vi rec1 là ${rec1.calV()} <br>`);
-    document.write(`Chu vi rec1 là ${rec1.calArea()}`);
+    document.write(`Dien tich rec1 là ${rec1.calArea()}`);
     rec1.drawCanvas(myCanvas);
-    document.write(`Chu vi rec1 là ${rec2.calV()}`);
-    document.write(`Chu vi rec1 là ${rec2.calArea()}`);
+    document.write(`Chu vi rec2 là ${rec2.calV()}`);
+    document.write(`Dien tich rec2 là ${rec2.calArea()}`);
     rec2.drawCanvas(myCanvas);
 }
 
